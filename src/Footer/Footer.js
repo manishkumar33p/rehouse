@@ -167,8 +167,8 @@ function Footer() {
 
           <p>
             <span>✉</span>
-            <a href="mailto:noidaextensionproperty1@gmail.com">
-              noidaextensionproperty1@gmail.com
+            <a href="mailto: karan@rehouserealtor.com">
+              karan@rehouserealtor.com
             </a>
           </p>
         </div>

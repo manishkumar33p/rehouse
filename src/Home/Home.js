@@ -920,9 +920,9 @@ const handleContactSubmit = async (e) => {
           </span>
 
           <h2>
-            Harsh
+            Karan
             <br />
-            <em>Mohan Jha.</em>
+            <em> Jha.</em>
           </h2>
 
           <h4>FOUNDER & CHIEF EXECUTIVE OFFICER</h4>
@@ -936,7 +936,7 @@ const handleContactSubmit = async (e) => {
 
           <p>
             With a clear vision and a strong commitment to excellence,
-            <strong> Harsh Mohan Jha</strong> founded Noida Extension
+            <strong> Karan Jha</strong> founded Rehouse Realtors with the goal of providing a better property
             Property with the belief that real estate should be built
             on trust, transparency and long-term relationships.
           </p>
@@ -949,7 +949,7 @@ const handleContactSubmit = async (e) => {
           </p>
 
           <div className="nep-founder-sign">
-            <strong>Harsh Mohan Jha</strong>
+            <strong>Karan Jha</strong>
             <span>Founder & CEO</span>
           </div>
 
