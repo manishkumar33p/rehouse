@@ -109,7 +109,7 @@ const handleContactSubmit = async (e) => {
 
           <div className="nep-eyebrow">
             <span></span>
-            NOIDA EXTENSION'S PROPERTY EXPERT
+            NOIDA  PROPERTY EXPERT
             <span></span>
           </div>
 
@@ -195,7 +195,7 @@ const handleContactSubmit = async (e) => {
             </p>
 
             <p>
-              Noida Extension Property is a professional real estate
+              Rehouse Realtors is a professional real estate
               consultancy focused on helping customers discover the
               right property for their needs, lifestyle and investment goals.
             </p>
@@ -652,7 +652,7 @@ const handleContactSubmit = async (e) => {
   <div className="why-content">
 
     <div className="section-heading">
-      <span className="section-tag">WHY NOIDA EXTENSION PROPERTY</span>
+      <span className="section-tag">WHY REHOUSE REALTORS</span>
 
       <h2>
         MORE THAN A
@@ -908,7 +908,7 @@ const handleContactSubmit = async (e) => {
 
           <div className="nep-founder-image-caption">
             <span>FOUNDER & CEO</span>
-            <strong>NOIDA EXTENSION PROPERTY</strong>
+            <strong>REHOUSE REALTOR</strong>
           </div>
 
         </div>
@@ -1185,7 +1185,7 @@ const handleContactSubmit = async (e) => {
           </p>
 
           <strong>
-            NOIDA EXTENSION PROPERTY
+            REHOUSE REALTORS
           </strong>
 
         </div>
