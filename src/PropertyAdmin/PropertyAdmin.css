@@ -1,0 +1,285 @@
+.property-admin {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding-bottom: 70px;
+  color: #14295a;
+}
+
+/* HEADER */
+
+.admin-header {
+  background: #102d67;
+  color: white;
+  padding: 45px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.admin-header span {
+  color: #ff6a2a;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.admin-header h1 {
+  margin: 8px 0;
+  font-size: 38px;
+}
+
+.admin-header p {
+  color: #d8e0f0;
+}
+
+.admin-count {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: white;
+  color: #102d67;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-count strong {
+  font-size: 35px;
+}
+
+.admin-count span {
+  color: #102d67;
+  letter-spacing: 0;
+}
+
+/* MESSAGE */
+
+.admin-message {
+  max-width: 1100px;
+  margin: 25px auto 0;
+  padding: 15px 20px;
+  background: #dff7e8;
+  color: #137333;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+/* FORM */
+
+.property-form-section {
+  max-width: 1100px;
+  margin: 35px auto;
+  background: white;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.07);
+}
+
+.property-form-section h2 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 15px;
+  border: 1px solid #d8deea;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #102d67;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.save-property {
+  border: none;
+  background: #102d67;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.save-property:hover {
+  background: #f15a24;
+}
+
+.cancel-edit {
+  border: none;
+  background: #ddd;
+  padding: 14px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+/* LIST */
+
+.admin-property-list {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.list-title {
+  padding: 0 15px;
+}
+
+.list-title span {
+  color: #f15a24;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.list-title h2 {
+  font-size: 30px;
+}
+
+/* TABLE */
+
+.admin-table-wrapper {
+  background: white;
+  border-radius: 15px;
+  overflow-x: auto;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.07);
+}
+
+.admin-table-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 900px;
+}
+
+.admin-table-wrapper th {
+  background: #102d67;
+  color: white;
+  padding: 16px;
+  text-align: left;
+}
+
+.admin-table-wrapper td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.admin-table-wrapper td img {
+  width: 85px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.admin-table-wrapper td strong {
+  display: block;
+}
+
+.admin-table-wrapper td small {
+  display: block;
+  color: #777;
+  margin-top: 5px;
+}
+
+.category-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #eaf0ff;
+  color: #102d67;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 7px;
+}
+
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.edit-btn {
+  background: #e8f0ff;
+  color: #102d67;
+}
+
+.delete-btn {
+  background: #ffe7e4;
+  color: #d93025;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+  .admin-header {
+    padding: 35px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .admin-header h1 {
+    font-size: 30px;
+  }
+
+  .admin-count {
+    width: 90px;
+    height: 90px;
+    align-self: flex-end;
+  }
+
+  .admin-count strong {
+    font-size: 25px;
+  }
+
+  .property-form-section {
+    margin: 20px 15px;
+    padding: 22px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .admin-property-list {
+    margin: 30px 15px;
+  }
+
+}

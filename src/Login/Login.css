@@ -1,0 +1,310 @@
+/* =========================================
+   LOGIN PAGE
+========================================= */
+
+.login-page {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 100px 20px 50px;
+
+  position: relative;
+
+  background: #f7f7f5;
+
+  overflow: hidden;
+}
+
+.login-background {
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      rgba(20, 20, 20, 0.72),
+      rgba(20, 20, 20, 0.72)
+    ),
+    url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2000&q=85");
+
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* =========================================
+   LOGIN CARD
+========================================= */
+
+.login-card {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+  max-width: 460px;
+
+  padding: 45px;
+
+  background: rgba(255,255,255,0.98);
+
+  border-radius: 16px;
+
+  box-shadow:
+    0 25px 70px rgba(0,0,0,0.25);
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 38px;
+}
+
+.login-logo-mark {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #222;
+  color: #d5a24a;
+
+  border-radius: 8px;
+
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.login-logo strong {
+  display: block;
+
+  color: #222;
+
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.login-logo span {
+  display: block;
+
+  margin-top: 2px;
+
+  color: #d5a24a;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.login-label {
+  color: #c18d38;
+
+  font-size: 11px;
+  font-weight: 800;
+
+  letter-spacing: 2px;
+}
+
+.login-header h1 {
+  margin: 10px 0;
+
+  color: #222;
+
+  font-size: 34px;
+  line-height: 1.15;
+}
+
+.login-header p {
+  margin: 0 0 30px;
+
+  color: #777;
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   FORM
+========================================= */
+
+.login-field {
+  margin-bottom: 18px;
+}
+
+.login-field label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #333;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.login-field input {
+  width: 100%;
+
+  height: 52px;
+
+  padding: 0 15px;
+
+  border: 1px solid #dddddd;
+
+  border-radius: 7px;
+
+  outline: none;
+
+  color: #222;
+
+  font-size: 15px;
+
+  background: #fff;
+
+  transition: all 0.25s ease;
+}
+
+.login-field input:focus {
+  border-color: #d5a24a;
+
+  box-shadow:
+    0 0 0 3px rgba(213,162,74,0.12);
+}
+
+
+/* =========================================
+   ERROR
+========================================= */
+
+.login-error {
+  margin-bottom: 15px;
+
+  padding: 11px 13px;
+
+  background: #fff1f1;
+
+  border: 1px solid #ffd5d5;
+
+  border-radius: 6px;
+
+  color: #c0392b;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   LOGIN BUTTON
+========================================= */
+
+.login-button {
+  width: 100%;
+
+  height: 52px;
+
+  border: none;
+
+  border-radius: 7px;
+
+  background: #222;
+
+  color: #fff;
+
+  cursor: pointer;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background: #d5a24a;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================================
+   BACK
+========================================= */
+
+.login-back {
+  display: block;
+
+  margin: 22px auto 0;
+
+  border: none;
+
+  background: transparent;
+
+  color: #777;
+
+  cursor: pointer;
+
+  font-size: 13px;
+}
+
+.login-back:hover {
+  color: #222;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  .login-page {
+    padding: 90px 15px 30px;
+  }
+
+  .login-card {
+    padding: 30px 22px;
+
+    border-radius: 12px;
+  }
+
+  .login-logo {
+    margin-bottom: 28px;
+  }
+
+  .login-header h1 {
+    font-size: 29px;
+  }
+
+  .login-header p {
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width: 380px) {
+
+  .login-card {
+    padding: 25px 18px;
+  }
+
+  .login-header h1 {
+    font-size: 26px;
+  }
+
+}

@@ -1,0 +1,715 @@
+/* =========================================================
+   REHOUSE REALTORS
+   PREMIUM ABOUT PAGE
+   WHITE + PINK LUXURY THEME
+========================================================= */
+
+.about-page {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #33262c;
+  font-family: "Montserrat", "Poppins", Arial, sans-serif;
+  overflow: hidden;
+}
+
+.about-container {
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   COMMON
+========================================================= */
+
+.about-label {
+  margin: 0 0 12px;
+  color: #c64b70;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.about-page h1,
+.about-page h2,
+.about-page h3 {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.about-page p {
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.about-page > .about-container {
+  padding-top: 95px;
+}
+
+.about-page h1 {
+  max-width: 850px;
+  margin: 0 0 22px;
+  color: #30242a;
+  font-size: clamp(48px, 6vw, 76px);
+  line-height: 0.98;
+  letter-spacing: -2px;
+}
+
+.about-page h1 span {
+  color: #d6537b;
+}
+
+.about-intro {
+  max-width: 720px;
+  margin: 0 0 14px;
+  color: #59474f;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.about-page > .about-container > p:not(.about-label):not(.about-intro) {
+  max-width: 720px;
+  margin: 0;
+  color: #83727a;
+  font-size: 12px;
+}
+
+
+/* =========================================================
+   FOUNDER
+========================================================= */
+
+.about-founder {
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.72fr 1.28fr;
+  align-items: stretch;
+  gap: 0;
+  margin-top: 75px;
+  overflow: hidden;
+  border: 1px solid #eddbe2;
+  border-radius: 28px;
+  background:
+    radial-gradient(
+      circle at 10% 20%,
+      rgba(240, 151, 177, 0.2),
+      transparent 35%
+    ),
+    #fff8fa;
+  box-shadow: 0 25px 65px rgba(99, 43, 62, 0.08);
+}
+
+.about-founder-image {
+  min-height: 390px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    linear-gradient(
+      145deg,
+      #f8d7e1,
+      #edabc0
+    );
+}
+
+.founder-initial {
+  width: 175px;
+  height: 175px;
+  display: grid;
+  place-items: center;
+  border: 8px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  color: #9e3c5b;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 54px;
+  font-weight: 700;
+  box-shadow:
+    0 20px 50px rgba(111, 47, 68, 0.15),
+    inset 0 0 30px rgba(255,255,255,0.25);
+}
+
+.about-founder-content {
+  padding: 55px;
+  align-self: center;
+}
+
+.about-founder-content h2 {
+  margin: 0;
+  color: #30242a;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.about-founder-content h4 {
+  margin: 9px 0 20px;
+  color: #c54a6c;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.about-founder-content p:not(.about-label) {
+  max-width: 570px;
+  margin: 0 0 12px;
+  color: #76656d;
+  font-size: 11px;
+}
+
+
+/* =========================================================
+   STORY
+========================================================= */
+
+.about-story {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 90px;
+  padding: 105px 0;
+  border-bottom: 1px solid #f0e1e6;
+}
+
+.about-story h2,
+.about-services h2,
+.about-why h2,
+.about-approach h2,
+.about-vision h2 {
+  margin: 0;
+  color: #33252c;
+  font-size: 43px;
+  line-height: 1.05;
+}
+
+.about-story h2 span,
+.about-services h2 span,
+.about-why h2 span,
+.about-approach h2 span,
+.about-vision h2 span {
+  color: #d6537b;
+}
+
+.about-story > div:last-child {
+  padding-top: 8px;
+}
+
+.about-story > div:last-child p {
+  margin: 0 0 17px;
+  color: #7c6b73;
+  font-size: 12px;
+}
+
+
+/* =========================================================
+   SERVICES
+========================================================= */
+
+.about-services {
+  padding: 105px 0;
+}
+
+.about-heading {
+  max-width: 700px;
+  margin-bottom: 45px;
+}
+
+.about-heading > p:not(.about-label) {
+  max-width: 650px;
+  margin-top: 16px;
+  color: #806f77;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.about-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 17px;
+}
+
+.about-boxes > div {
+  position: relative;
+  min-height: 185px;
+  padding: 29px;
+  overflow: hidden;
+  border: 1px solid #eadbe1;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 12px 32px rgba(99, 43, 62, 0.045);
+  transition: all 0.3s ease;
+}
+
+.about-boxes > div::after {
+  content: "";
+  position: absolute;
+  right: -45px;
+  bottom: -45px;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #fff2f6;
+  transition: 0.3s ease;
+}
+
+.about-boxes > div:hover {
+  transform: translateY(-7px);
+  border-color: #ddb4c2;
+  box-shadow: 0 22px 45px rgba(99, 43, 62, 0.10);
+}
+
+.about-boxes > div:hover::after {
+  transform: scale(1.3);
+}
+
+.about-boxes span {
+  position: relative;
+  z-index: 2;
+  color: #d35b7c;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.about-boxes h3 {
+  position: relative;
+  z-index: 2;
+  margin: 15px 0 9px;
+  color: #3a2a31;
+  font-size: 22px;
+}
+
+.about-boxes p {
+  position: relative;
+  z-index: 2;
+  max-width: 310px;
+  margin: 0;
+  color: #82717a;
+  font-size: 10px;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   WHY REHOUSE
+========================================================= */
+
+.about-why {
+  padding: 100px 0;
+  margin-left: calc((1180px - 100vw) / 2);
+  margin-right: calc((1180px - 100vw) / 2);
+  padding-left: max(20px, calc((100vw - 1180px) / 2));
+  padding-right: max(20px, calc((100vw - 1180px) / 2));
+  background: #fff8fa;
+}
+
+.about-why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.about-why-card {
+  padding: 28px 23px;
+  border: 1px solid #ecdce2;
+  border-radius: 18px;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+.about-why-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(104, 43, 63, 0.08);
+}
+
+.about-why-card strong {
+  color: #df9aae;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+}
+
+.about-why-card h3 {
+  margin: 16px 0 9px;
+  color: #382930;
+  font-size: 19px;
+  line-height: 1.15;
+}
+
+.about-why-card p {
+  margin: 0;
+  color: #82717a;
+  font-size: 10px;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   APPROACH
+========================================================= */
+
+.about-approach {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 90px;
+  align-items: center;
+  padding: 110px 0;
+}
+
+.about-approach-content > p:not(.about-label) {
+  max-width: 520px;
+  color: #7d6d75;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.about-approach-content h2 {
+  margin-bottom: 22px;
+}
+
+.about-steps {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.about-steps > div {
+  position: relative;
+  padding: 27px;
+  border: 1px solid #eadbe1;
+  border-radius: 17px;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+.about-steps > div:hover {
+  border-color: #dbafbd;
+  background: #fff9fb;
+  transform: translateY(-4px);
+}
+
+.about-steps span {
+  color: #c94e70;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.about-steps h3 {
+  margin: 12px 0 7px;
+  color: #3a2a31;
+  font-size: 20px;
+}
+
+.about-steps p {
+  margin: 0;
+  color: #86747c;
+  font-size: 9px;
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   VISION
+========================================================= */
+
+.about-vision {
+  position: relative;
+  padding: 85px 100px;
+  margin-bottom: 100px;
+  overflow: hidden;
+  border-radius: 28px;
+  background:
+    radial-gradient(
+      circle at 90% 10%,
+      rgba(255, 176, 201, 0.28),
+      transparent 28%
+    ),
+    linear-gradient(
+      135deg,
+      #fff1f5,
+      #ffe5ed
+    );
+}
+
+.about-vision::before {
+  content: "";
+  position: absolute;
+  right: -90px;
+  bottom: -90px;
+  width: 250px;
+  height: 250px;
+  border: 1px solid rgba(199, 76, 111, 0.15);
+  border-radius: 50%;
+}
+
+.about-vision h2 {
+  max-width: 750px;
+  margin: 0 0 20px;
+  font-size: 46px;
+}
+
+.about-vision > p:not(.about-label) {
+  position: relative;
+  max-width: 760px;
+  margin: 0 0 12px;
+  color: #765f69;
+  font-size: 11px;
+  line-height: 1.85;
+}
+
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.about-cta {
+  position: relative;
+  margin-bottom: 90px;
+  padding: 75px 50px;
+  overflow: hidden;
+  border-radius: 27px;
+  text-align: center;
+  background:
+    radial-gradient(
+      circle at 15% 20%,
+      rgba(255, 180, 202, 0.20),
+      transparent 25%
+    ),
+    linear-gradient(
+      135deg,
+      #44232f,
+      #8d3c59
+    );
+  box-shadow: 0 25px 60px rgba(77, 32, 48, 0.18);
+}
+
+.about-cta::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 260px;
+  height: 260px;
+  border: 1px solid rgba(255,255,255,0.13);
+  border-radius: 50%;
+}
+
+.about-cta > p:first-child {
+  position: relative;
+  color: #ffb1c6;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.about-cta h2 {
+  position: relative;
+  margin: 13px 0 14px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  line-height: 1.05;
+}
+
+.about-cta h2 span {
+  color: #ffb1c7;
+}
+
+.about-cta > p:nth-of-type(2) {
+  position: relative;
+  max-width: 570px;
+  margin: 0 auto 27px;
+  color: rgba(255,255,255,0.72);
+  font-size: 10px;
+}
+
+.about-cta a {
+  position: relative;
+  display: inline-block;
+  padding: 14px 24px;
+  border-radius: 50px;
+  background: #fff;
+  color: #a33e5b;
+  font-size: 9px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.about-cta a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+
+/* =========================================================
+   RESPONSIVE - TABLET
+========================================================= */
+
+@media (max-width: 1050px) {
+
+  .about-founder {
+    grid-template-columns: 1fr;
+  }
+
+  .about-founder-image {
+    min-height: 300px;
+  }
+
+  .about-founder-content {
+    padding: 40px;
+  }
+
+  .about-boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-story,
+  .about-approach {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .about-why {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+
+/* =========================================================
+   RESPONSIVE - MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+  .about-container {
+    width: min(100% - 28px, 600px);
+  }
+
+  .about-page > .about-container {
+    padding-top: 65px;
+  }
+
+  .about-page h1 {
+    font-size: 46px;
+    letter-spacing: -1px;
+  }
+
+  .about-intro {
+    font-size: 14px;
+  }
+
+  .about-founder {
+    margin-top: 55px;
+    border-radius: 22px;
+  }
+
+  .about-founder-image {
+    min-height: 240px;
+  }
+
+  .founder-initial {
+    width: 130px;
+    height: 130px;
+    font-size: 40px;
+  }
+
+  .about-founder-content {
+    padding: 30px;
+  }
+
+  .about-founder-content h2 {
+    font-size: 39px;
+  }
+
+  .about-story,
+  .about-services,
+  .about-approach {
+    padding: 75px 0;
+  }
+
+  .about-story h2,
+  .about-services h2,
+  .about-why h2,
+  .about-approach h2,
+  .about-vision h2 {
+    font-size: 35px;
+  }
+
+  .about-boxes {
+    grid-template-columns: 1fr;
+  }
+
+  .about-boxes > div {
+    min-height: auto;
+  }
+
+  .about-why {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .about-why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .about-vision {
+    padding: 45px 27px;
+    margin-bottom: 65px;
+    border-radius: 22px;
+  }
+
+  .about-cta {
+    margin-bottom: 55px;
+    padding: 55px 22px;
+    border-radius: 22px;
+  }
+
+  .about-cta h2 {
+    font-size: 38px;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 430px) {
+
+  .about-page h1 {
+    font-size: 39px;
+  }
+
+  .about-founder-content h2 {
+    font-size: 34px;
+  }
+
+  .about-story h2,
+  .about-services h2,
+  .about-why h2,
+  .about-approach h2,
+  .about-vision h2 {
+    font-size: 31px;
+  }
+
+  .about-cta h2 {
+    font-size: 33px;
+  }
+
+}
