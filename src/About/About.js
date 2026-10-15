@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import Service from "../Services/Services";
-import HeroCarousel from "../HeroCarousel/HeroCarousel";
+
 function About() {
   return (
 

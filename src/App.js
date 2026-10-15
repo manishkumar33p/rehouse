@@ -18,7 +18,7 @@ import Loan from "./Loan/Loan";
 import About from "./About/About";
 import ChatBot from "./Chatbot/Chatbot";
 import WhatsAppConnect from "./WhatsAppConnect/WhatsAppConnect";
-import HeroCarousel from "./HeroCarousel/HeroCarousel";
+
 
 function App() {
   return (
@@ -55,6 +55,8 @@ function App() {
           path="/services"
           element={<Services />}
         />
+
+        
 <Route path="/loan" element={<Loan />} />
         <Route path="/our-journey" element={<ProjectJourney />} />
         <Route path="/login" element={<Login />} />
