@@ -9,6 +9,7 @@ import flat4 from "../flat4.jpg";
 import flat5 from "../flat5.jpg";
 import Property from "../Property/Property";
 import { sendEnquiry } from "../sendEnquiry";
+import HeroCarousel from "../HeroCarousel/HeroCarousel";
 const properties = [
     
   {
@@ -98,7 +99,9 @@ const handleContactSubmit = async (e) => {
 
   return (
     <div className="nep-site">
+        <HeroCarousel />
         <Property />
+      
 
             {/* HERO */}
       <section className="nep-hero" id="home">

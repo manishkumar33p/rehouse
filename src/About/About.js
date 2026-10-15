@@ -1,11 +1,14 @@
 import React from "react";
 import "./About.css";
 import Service from "../Services/Services";
+import HeroCarousel from "../HeroCarousel/HeroCarousel";
 function About() {
   return (
 
    <div>
+     
     <Service></Service>
+  
     <section className="about-page">
  
       {/* =========================

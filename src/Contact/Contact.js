@@ -428,7 +428,7 @@ function Contact() {
             </a>
 
             <a
-              href="tel:+919876543210"
+              href="tel:+919911924138"
               className="secondary-contact-btn"
             >
               <span className="phone-icon">☎</span>
@@ -566,8 +566,8 @@ function Contact() {
 
                 <span>CALL OUR OFFICE</span>
 
-                <a href="tel:+919876543210">
-                  +91 98765 43210
+                <a href="tel:+919911924138">
+                  +91 99119 24138
                 </a>
 
                 <p>
@@ -594,8 +594,8 @@ function Contact() {
 
                 <span>EMAIL US</span>
 
-                <a href="mailto:info@noidaextensionproperty.com">
-                  info@noidaextensionproperty.com
+                <a href="mailto:karan@rehouserealtor.com">
+                  karan@rehouserealtor.com
                 </a>
 
                 <p>

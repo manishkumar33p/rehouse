@@ -16,6 +16,9 @@ import Dashboard from "./Dashboard/Dashboard";
 import ProjectJourney from "./ProjectJourney/ProjectJourney";
 import Loan from "./Loan/Loan";
 import About from "./About/About";
+import ChatBot from "./Chatbot/Chatbot";
+import WhatsAppConnect from "./WhatsAppConnect/WhatsAppConnect";
+import HeroCarousel from "./HeroCarousel/HeroCarousel";
 
 function App() {
   return (
@@ -60,7 +63,9 @@ function App() {
 <Route path="/dashboard" element={<Dashboard />} />
 
       </Routes>
+       <ChatBot />
 <Footer/>
+<WhatsAppConnect />
     </BrowserRouter>
   );
 }
