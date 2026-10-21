@@ -1943,7 +1943,7 @@ function ProjectJourney() {
   ======================================================= */
 
   const [firebaseProjects, setFirebaseProjects] = useState([]);
-  const [firebaseLoading, setFirebaseLoading] = useState(true);
+  // const [firebaseLoading, setFirebaseLoading] = useState(true);
 
   /* =======================================================
      LOAD FIREBASE PROJECTS IN REAL TIME
@@ -1968,13 +1968,13 @@ function ProjectJourney() {
         });
 
         setFirebaseProjects(data);
-        setFirebaseLoading(false);
+        // setFirebaseLoading(false);
       },
       (error) => {
         console.error("Firebase Projects Error:", error);
 
         setFirebaseProjects([]);
-        setFirebaseLoading(false);
+        // setFirebaseLoading(false);
       }
     );
 
