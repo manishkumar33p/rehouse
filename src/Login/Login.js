@@ -20,7 +20,7 @@ function Login() {
 
   const subtitle = isDashboard
     ? "Enter your password to access your dashboard."
-    : "Login to post your property on Noida Extension Property.";
+    : "Login to post your property on Rehouse Realtor.";
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -43,7 +43,7 @@ function Login() {
 
     } else if (isDashboard && password === "admin123") {
 
-      navigate("/dashboard");
+      navigate("/project-admin");
 
     } else {
 
@@ -65,7 +65,7 @@ function Login() {
           </div>
 
           <div>
-            <strong>NOIDA EXTENSION</strong>
+            <strong>REHOUSE REALTORS</strong>
             <span>PROPERTY</span>
           </div>
         </div>

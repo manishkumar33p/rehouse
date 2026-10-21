@@ -18,7 +18,7 @@ import Loan from "./Loan/Loan";
 import About from "./About/About";
 import ChatBot from "./Chatbot/Chatbot";
 import WhatsAppConnect from "./WhatsAppConnect/WhatsAppConnect";
-
+import ProjectAdmin from "./ProjectAdmin/ProjectAdmin";
 
 function App() {
   return (
@@ -63,7 +63,10 @@ function App() {
 
         <Route path="/post-property" element={<PostProperty />} />
 <Route path="/dashboard" element={<Dashboard />} />
-
+<Route
+  path="/project-admin"
+  element={<ProjectAdmin />}
+/>
       </Routes>
        <ChatBot />
 <Footer/>
