@@ -2530,7 +2530,7 @@ function ProjectJourney() {
             PAST
         =================================================== */}
 
-        <div className="pj-history-block">
+        {/* <div className="pj-history-block">
 
           <div className="pj-history-heading">
             <span>
@@ -2590,7 +2590,7 @@ function ProjectJourney() {
 
           </div>
 
-        </div>
+        </div> */}
 
         {/* ===================================================
             FIREBASE PAST PROJECTS

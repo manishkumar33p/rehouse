@@ -155,7 +155,7 @@ function Footer() {
 
           <p>
             <span>📍</span>
-            Vaidpura, Noida Extension, Greater Noida, Uttar Pradesh
+           Villa no.21, Sindhuja Green, Vedpura, Noida Extension, Greater Noida, Uttar Pradesh
           </p>
 
           <p>

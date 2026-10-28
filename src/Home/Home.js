@@ -937,19 +937,25 @@ const handleContactSubmit = async (e) => {
             It is a decision that shapes someone's future."
           </p>
 
-          <p>
-            With a clear vision and a strong commitment to excellence,
-            <strong> Karan Jha</strong> founded Rehouse Realtors with the goal of providing a better property
-            Property with the belief that real estate should be built
-            on trust, transparency and long-term relationships.
-          </p>
+        <p>
+  With a clear vision and a strong commitment to excellence,
+  <strong> Karan Jha</strong> founded Rehouse Realtors with the
+  belief that real estate should be built on
+  <strong> trust, transparency, and long-term relationships.</strong>
+  With experience in the real estate industry since
+  <strong> 2009</strong>, he has worked across
+  <strong> numerous real estate projects</strong>, gaining valuable
+  expertise in property development, market insights, and
+  customer-focused solutions.
+</p>
 
-          <p>
-            His customer-first approach and understanding of the
-            evolving Noida Extension market continue to drive the
-            company's vision of delivering genuine opportunities
-            and personalised property solutions.
-          </p>
+<p>
+  His <strong>customer-first approach</strong>, deep understanding
+  of the evolving Noida Extension market, and commitment to quality
+  continue to drive the company's vision of delivering
+  <strong> genuine opportunities, transparent dealings, and
+  personalised property solutions.</strong>
+</p>
 
           <div className="nep-founder-sign">
             <strong>Karan Jha</strong>
