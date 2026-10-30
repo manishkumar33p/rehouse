@@ -1560,7 +1560,7 @@ const PropertyAdmin = () => {
                   </label>
 
                   <input
-                    type="url"
+                    type="text"
                     name={field}
                     value={form[field]}
                     onChange={handleChange}
