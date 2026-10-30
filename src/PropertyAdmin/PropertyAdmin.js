@@ -1616,17 +1616,35 @@ const PropertyAdmin = () => {
               ]
                 .filter(Boolean)
                 .map((url, index) => (
+                  // <img
+                  //   key={`${url}-${index}`}
+                  //   src={url}
+                  //   alt={`Property preview ${index + 1}`}
+                  //   style={{
+                  //     width: "150px",
+                  //     height: "105px",
+                  //     objectFit: "cover",
+                  //     borderRadius: "6px",
+                  //   }}
+                  // />
+
                   <img
-                    key={`${url}-${index}`}
-                    src={url}
-                    alt={`Property preview ${index + 1}`}
-                    style={{
-                      width: "150px",
-                      height: "105px",
-                      objectFit: "cover",
-                      borderRadius: "6px",
-                    }}
-                  />
+  key={`${url}-${index}`}
+  src={url.trim()}
+  alt={`Property preview ${index + 1}`}
+  onLoad={() => console.log("Photo loaded:", url)}
+  onError={(e) => {
+    console.error("Photo loading failed:", url, e);
+  }}
+  style={{
+    width: "150px",
+    height: "105px",
+    objectFit: "cover",
+    borderRadius: "6px",
+    border: "1px solid #ddd",
+    background: "#f5f5f5",
+  }}
+/>
                 ))}
             </div>
           </div>
