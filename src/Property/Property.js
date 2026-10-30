@@ -1397,7 +1397,8 @@ const PropertyPhotoCarousel = ({ property }) => {
     >
       <img
         src={photos[activeIndex]}
-        alt={`${property.title || "Property"} photo ${activeIndex + 1}`}
+        // alt={`${property.title || "Property"} photo ${activeIndex + 1}`}
+        alt={`${property.title || "Property"} ${activeIndex + 1}`}
         style={{
           width: "100%",
           height: "100%",
